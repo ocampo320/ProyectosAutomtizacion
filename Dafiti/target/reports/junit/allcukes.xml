@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="30.777931">
+<testcase classname=": Registar un usuario" name="buscar y agregar a carrito" time="30.777931">
+<system-out><![CDATA[Given Ingrese a la pagina...................................................passed
+When el usuario se hace una busqueda con los datos bolso....................passed
+Then El usuario ve el mensaje de registro exitoso...........................passed
+]]></system-out>
+</testcase>
+</testsuite>

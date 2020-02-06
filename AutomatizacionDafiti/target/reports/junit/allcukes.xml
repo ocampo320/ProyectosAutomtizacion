@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="38.979027">
+<testcase classname="Comprar Vuelo" name="Agregar Vuelo a Compra" time="38.979027">
+<failure message="org.openqa.selenium.NoSuchWindowException: no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=79.0.3945.130)&#10;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'&#10;System info: host: 'LAPTOP-LAFQ684S', ip: '172.23.81.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\SEMILL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: f6b473452509f0d7320d91c582960702&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;clusters&quot;]/span[1]/span/cluster/div/div/div[2]/fare/span/span/div/buy-button/a}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)&#13;&#10;&#9;at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:231)&#13;&#10;&#9;at net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:16)&#13;&#10;&#9;at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:208)&#13;&#10;&#9;at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:63)&#13;&#10;&#9;at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)&#13;&#10;&#9;at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)&#13;&#10;&#9;at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:960)&#13;&#10;&#9;at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:802)&#13;&#10;&#9;at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1039)&#13;&#10;&#9;at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)&#13;&#10;&#9;at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d.CGLIB$performAs$0(&lt;generated&gt;)&#13;&#10;&#9;at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d$$FastClassByCGLIB$$eb009f51.invoke(&lt;generated&gt;)&#13;&#10;&#9;at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)&#13;&#10;&#9;at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:449)&#13;&#10;&#9;at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:434)&#13;&#10;&#9;at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:409)&#13;&#10;&#9;at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:150)&#13;&#10;&#9;at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:137)&#13;&#10;&#9;at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)&#13;&#10;&#9;at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d.performAs(&lt;generated&gt;)&#13;&#10;&#9;at net.serenitybdd.screenplay.Actor.performTask(Actor.java:176)&#13;&#10;&#9;at net.serenitybdd.screenplay.Actor.perform(Actor.java:157)&#13;&#10;&#9;at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:138)&#13;&#10;&#9;at com.sophossolutions.www.task.ConfirmarVuelo.performAs(ConfirmarVuelo.java:19)&#13;&#10;&#9;at com.sophossolutions.www.task.ConfirmarVuelo$$EnhancerByCGLIB$$a1b088df.CGLIB$performAs$0(&lt;generated&gt;)&#13;&#10;&#9;at com.sophossolutions.www.task.ConfirmarVuelo$$EnhancerByCGLIB$$a1b088df$$FastClassByCGLIB$$f18c3c35.invoke(&lt;generated&gt;)&#13;&#10;&#9;at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)&#13;&#10;&#9;at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:10)&#13;&#10;&#9;at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:20)&#13;&#10;&#9;at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:361)&#13;&#10;&#9;at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)&#13;&#10;&#9;at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)&#13;&#10;&#9;at com.sophossolutions.www.task.ConfirmarVuelo$$EnhancerByCGLIB$$a1b088df.performAs(&lt;generated&gt;)&#13;&#10;&#9;at net.serenitybdd.screenplay.Actor.performTask(Actor.java:176)&#13;&#10;&#9;at net.serenitybdd.screenplay.Actor.perform(Actor.java:157)&#13;&#10;&#9;at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:138)&#13;&#10;&#9;at com.sophossolutions.www.stepdefinitions.StepDefinitionDespegar.entreCiudades(StepDefinitionDespegar.java:35)&#13;&#10;&#9;at ✽.Vuelo entre Medellin y Cali(src/test/resources/features/HU004_CompraDespegar.feature:9)&#13;&#10;"><![CDATA[Given Necesisto comprar un vuelo............................................passed
+When Vuelo entre Medellin y Cali............................................failed
+Then Valido el valor del vuelo..............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-LAFQ684S', ip: '172.23.81.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\SEMILL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f6b473452509f0d7320d91c582960702
+*** Element info: {Using=xpath, value=//*[@id="clusters"]/span[1]/span/cluster/div/div/div[2]/fare/span/span/div/buy-button/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:231)
+	at net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:16)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:208)
+	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:63)
+	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:960)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:802)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1039)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget.performAs(ClickOnTarget.java:13)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d.CGLIB$performAs$0(<generated>)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d$$FastClassByCGLIB$$eb009f51.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:449)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:434)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:409)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:150)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:137)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at net.serenitybdd.screenplay.actions.ClickOnTarget$$EnhancerByCGLIB$$e3f2ec6d.performAs(<generated>)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:176)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:157)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:138)
+	at com.sophossolutions.www.task.ConfirmarVuelo.performAs(ConfirmarVuelo.java:19)
+	at com.sophossolutions.www.task.ConfirmarVuelo$$EnhancerByCGLIB$$a1b088df.CGLIB$performAs$0(<generated>)
+	at com.sophossolutions.www.task.ConfirmarVuelo$$EnhancerByCGLIB$$a1b088df$$FastClassByCGLIB$$f18c3c35.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:10)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:361)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at com.sophossolutions.www.task.ConfirmarVuelo$$EnhancerByCGLIB$$a1b088df.performAs(<generated>)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:176)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:157)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:138)
+	at com.sophossolutions.www.stepdefinitions.StepDefinitionDespegar.entreCiudades(StepDefinitionDespegar.java:35)
+	at ✽.Vuelo entre Medellin y Cali(src/test/resources/features/HU004_CompraDespegar.feature:9)
+]]></failure>
+</testcase>
+</testsuite>

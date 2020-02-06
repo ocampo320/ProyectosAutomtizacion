@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Dafiti</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="8ad7fc35159bdc434e771a661edeb385593b0a35f4f9a84be26f9fa508d870b4.html">: Registar Un Usuario</a></span>
+                > <span class="truncate-60"><a
+                    href="d0a6c494c68f1ceb42bc156e30c7f5d2e745833bc4752866104b6d5f24046d25.html">Registar usuario en la pagina </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-02-2020 17:24</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">: Registar Un Usuario</span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como estudiante de semillero
+necesito aprender automatizaci�n a traves de ejemplos
+para automatizar cualquier caso de prueba
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="57d1b69a7dc50823c8091e16642089ef4789d62ed24634065ab9b7a27653fe5b.html">Tag2
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Registar usuario en la pagina
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="Given Ingrese a la pagina" width="1366"/>
+                <img src="fb4764eaf80c1a834718a63a2a4bda788c7c79b9e0bd5bf96f1c77d9d044aa2c.png" title="Given Ingrese a la pagina" width="1366"/>
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="deivi opens the Inicio dafiti" width="1366"/>
+                <img src="14fc8cba347564c561efac4d5be57b7f853609fcb855fc32444ddd509a904485.png" title="deivi opens the Inicio dafiti" width="1366"/>
+                <img src="9ad09f79f2feec8072486508186f6220099edb5b53a570805561f5576fde1a25.png" title="When Un usuario se registra con los datos telecentro.lasietrra@gmail.com,2220718,2220718,deibi, ocampo, 1017184574, CE,1, 9, 1990, Masculino" width="1366"/>
+                <img src="b885f864d2dab27ae15e20df9f18d7e30b596627ca05ce311e6e46c75e62a771.png" title="When Un usuario se registra con los datos telecentro.lasietrra@gmail.com,2220718,2220718,deibi, ocampo, 1017184574, CE,1, 9, 1990, Masculino" width="1366"/>
+                <img src="7f6530730344c48ac0863415a09489f84073c36fc8491c22b13f463226ff5202.png" title="deivi clicks on Selecciona la opci&oacute;n de registro" width="1366"/>
+                <img src="d062f87921800d5f49464c195ba613f5bef8c31dee55dc95f8b74192c98dd072.png" title="deivi clicks on Selecciona la opci&oacute;n de registro" width="1366"/>
+                <img src="a41e2b55dd073a28a1b451911dbbcf54c7f1f5b370c320fe3fddf1be5e1c2a99.png" title="deivi enters 'telecentro.lasietrra@gmail.com' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="652e54ea34e2c67ff79a61c8f8eba874689e8bee2a3c9d38d7fe24817bc56238.png" title="deivi enters 'telecentro.lasietrra@gmail.com' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="652e54ea34e2c67ff79a61c8f8eba874689e8bee2a3c9d38d7fe24817bc56238.png" title="deivi enters '2220718' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="21d0088a34db2361f35bc41be4d506f01cda01219a0fc127976544e1b87548e1.png" title="deivi enters '2220718' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="fa82c3d5c634956f70dadbe03b224cd03d44ffae3f56e078741a64784a02f611.png" title="deivi enters '2220718' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="ff3eebd7bf5d7c39d18bf73e45c4aa9f2c3e73bfa827ac269f7e8c63b7cc0ccd.png" title="deivi enters '2220718' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="a0280f546346dfdfe01e237d1b9b481afa00c0690dec378aa3aee34ba7ccbd01.png" title="deivi enters 'deibi' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="40a8e1d1abd47508500e5675be2d6390fcc401a4913445d4abda2236e0996b39.png" title="deivi enters 'deibi' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="576e4b245703d52f1c794868f4618724d3c036df86b3b09c648502451c88d9e5.png" title="deivi enters ' ocampo' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="6739bb14c664462a98e506ab9b0b29ef09282e65e5a04a324c23ce11e1f1951b.png" title="deivi enters ' ocampo' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="7432250508c764517cce50f54b5b515a61451ea4d1c8ca5c13892eb2b2f1ea92.png" title="deivi enters ' 1017184574' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="11288ce1ec588831c34b43b631c32a897781e48e9a56802d44c03cf3b4a9d2de.png" title="deivi enters ' 1017184574' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="943c37a2e92a38fda562ee37d16e9563625111baa4b2d2518b3d26ab923548f7.png" title="deivi select CC on seleciona la cedula" width="1366"/>
+                <img src="11288ce1ec588831c34b43b631c32a897781e48e9a56802d44c03cf3b4a9d2de.png" title="deivi enters '1' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="9a9fa7c4733ac3453a1b363f8f22f5d5c0c56acbfba5f4f61f75bff82cde6aaf.png" title="deivi enters '1' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="fd934e4f509f1bb5223291d540eb6e1ba1c25da1006211f0975807b16d127b5b.png" title="deivi enters '9' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="c219459efd51769d31736f79aaf4015dd5ae435b72db89fd8257664c0d5579ee.png" title="deivi enters '9' into Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="b351dce0b477413b60c1023923b5504d2d6bc2802a5f571694abcf89d6516b2f.png" title="deivi select 1990 on Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="28ddf497529b0f85f78b0dd617acffc1085d0fc86f35a955c0050301140f9dd2.png" title="deivi select 1990 on Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="28ddf497529b0f85f78b0dd617acffc1085d0fc86f35a955c0050301140f9dd2.png" title="deivi select Masculino on Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="4fc96833511a4c32d981e3f47cb6b14d5c5719e64a814eda4ca800c111bd11e4.png" title="deivi select Masculino on Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="4fc96833511a4c32d981e3f47cb6b14d5c5719e64a814eda4ca800c111bd11e4.png" title="deivi clicks on Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="b32a610f849c81ec0939acf05d1e4ac3275b6e3511a491ae608004ec17339523.png" title="deivi clicks on Selecciona la opci&oacute;n vuelos" width="1366"/>
+                <img src="b885f864d2dab27ae15e20df9f18d7e30b596627ca05ce311e6e46c75e62a771.png" title="Then El usuario ve el mensaje de registro exitoso: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.9</span>
+</div>
+</body>
+</html>

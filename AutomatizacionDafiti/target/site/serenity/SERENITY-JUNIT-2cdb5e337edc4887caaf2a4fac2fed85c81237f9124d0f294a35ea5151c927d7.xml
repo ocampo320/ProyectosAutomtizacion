@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Comprar Vuelo" skipped="0" tests="1" time="39.1" timestamp="2020-02-06 11:49:58"><testcase name="Agregar Vuelo a Compra"><error message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=79.0.3945.130)&#10;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'&#10;System info: host: 'LAPTOP-LAFQ684S', ip: '172.23.81.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\SEMILL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: f6b473452509f0d7320d91c582960702&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;clusters&quot;]/span[1]/span/cluster/div/div/div[2]/fare/span/span/div/buy-button/a}" type="org.openqa.selenium.NoSuchWindowException">no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-LAFQ684S', ip: '172.23.81.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\SEMILL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f6b473452509f0d7320d91c582960702
+*** Element info: {Using=xpath, value=//*[@id="clusters"]/span[1]/span/cluster/div/div/div[2]/fare/span/span/div/buy-button/a}</error><system-err>no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-LAFQ684S', ip: '172.23.81.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\SEMILL~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f6b473452509f0d7320d91c582960702
+*** Element info: {Using=xpath, value=//*[@id="clusters"]/span[1]/span/cluster/div/div/div[2]/fare/span/span/div/buy-button/a}&#13;
+com.sophossolutions.www.task.ConfirmarVuelo.performAs(ConfirmarVuelo.java:19)&#13;
+com.sophossolutions.www.stepdefinitions.StepDefinitionDespegar.entreCiudades(StepDefinitionDespegar.java:35)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

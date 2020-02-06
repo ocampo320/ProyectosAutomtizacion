@@ -1,0 +1,81 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11085109800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitionsDafiti.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "buscar y agregar a carrito",
+        "description": "",
+        "id": ":-registar-un-usuario;buscar-y-agregar-a-carrito",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4122861400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Ingrese a la pagina",
+            "match": {
+              "location": "StepDefinitionsDafiti.ingrese_a_la_pagina()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12606359400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "el usuario se hace una busqueda con los datos bolso",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bolso",
+                  "offset": 46
+                }
+              ],
+              "location": "StepDefinitionsDafiti.el_usuario_se_hace_una_busqueda_con_los_datos_adidas(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 378182900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "El usuario ve el mensaje de registro exitoso",
+            "match": {
+              "location": "StepDefinitionsDafiti.el_usuario_ve_el_mensaje_de_registro_exitoso()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag3"
+          }
+        ]
+      }
+    ],
+    "name": ": Registar un usuario",
+    "description": "   Como estudiante de semillero\n  necesito aprender automatizaci�n a traves de ejemplos\n  para automatizar cualquier caso de prueba",
+    "id": ":-registar-un-usuario",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/HU001_RegistarDafiti.feature",
+    "tags": []
+  }
+]

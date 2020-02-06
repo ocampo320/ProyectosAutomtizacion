@@ -1,0 +1,272 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="3fecb63bce067c3fcd30fcf46be8766f9fa202e3e83c1a4c5e712e1a259746bc.html">Registrar Usuario</a></span>
+                > <span class="truncate-60"><a
+                    href="2b8a15e9c5e961af25765d8352a779b19af847b431478fb6be4eae891a5e744e.html">Registrar usuario </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-02-2020 11:49</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Registrar Usuario </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                En este espacio se desarrollaran las funcionalidades de registro en Dafiti
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
+                            <span class="test-case-title">
+                                <span class="error-color">Registrar usuario
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: Expected condition failed: waiting for By.xpath: //*[@id='yw0']/li[1]/a to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'System info: host: 'LAPTOP-LAFQ684S', ip: '172.23.81.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'Driver info: driver.version: unknown</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.sophossolutions.www.stepdefinitions.StepDefinitionsRegistrarUsuarioDafiti.validarRegistroUsuario(StepDefinitionsRegistrarUsuarioDafiti.java:48)<br />✽.Validar registro del usuario(src/test/resources/features/HU002_RegistrarUsuarioDafiti.feature:9)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource6290226300909858976.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="1bf8987f3a2317af197d64f52c62739414ac1e3284b043d975e6ce989b0343e1.png" title="Given se desea registrar un usuario en Dafiti" width="1034"/>
+                <img src="548451533f285fbabc1f7a412a01e10383f68a4596dacde78d974d458390fcf6.png" title="Semillero opens the Inicio dafiti" width="1034"/>
+                <img src="7b55f508c725000c9474f6c19a498bc90ac8bc152fb78d14b6760a28855c0e2e.png" title="When Se diligencias los datos de usuario
+| email | contrasena | nombre | apellidos | documento | diaNacimiento | mesNacimiento | anioNacimiento | sexo |
+| jerson3@hotmail.com | 123456 | jerson andres | jaramillo | 1032456876 | 25 | 04 | 1994 | Masculino |" width="1034"/>
+                <img src="46fff5516839cc71ea0d0b591ad4a2a097b6ccb203cfebe0776f60c485eaf832.png" title="When Se diligencias los datos de usuario
+| email | contrasena | nombre | apellidos | documento | diaNacimiento | mesNacimiento | anioNacimiento | sexo |
+| jerson3@hotmail.com | 123456 | jerson andres | jaramillo | 1032456876 | 25 | 04 | 1994 | Masculino |" width="1034"/>
+                <img src="7b55f508c725000c9474f6c19a498bc90ac8bc152fb78d14b6760a28855c0e2e.png" title="Semillero clicks on Selecciona la opci&oacute;n iniciar sesion" width="1034"/>
+                <img src="b38ea356020ba80ba23177b000a29ade238785cc3bf6cde830e5d42cb6067779.png" title="Semillero clicks on Selecciona la opci&oacute;n iniciar sesion" width="1034"/>
+                <img src="b38ea356020ba80ba23177b000a29ade238785cc3bf6cde830e5d42cb6067779.png" title="Semillero enters 'jerson3@hotmail.com' into Entrar el email" width="1034"/>
+                <img src="9013ed7fb951ebdceb43959e8ee7263a1d0ddbecfde9240ae5056a6475a20b1e.png" title="Semillero enters 'jerson3@hotmail.com' into Entrar el email" width="1034"/>
+                <img src="9013ed7fb951ebdceb43959e8ee7263a1d0ddbecfde9240ae5056a6475a20b1e.png" title="Semillero enters '123456' into Entrar la contrase&ntilde;a" width="1034"/>
+                <img src="ba0b1d430a52ac99e761d8b87785f1cd3a94493e5da600c7f25b627b4e4e1ac9.png" title="Semillero enters '123456' into Entrar la contrase&ntilde;a" width="1034"/>
+                <img src="c61de910fb423624f6e797c37c0b3f8d4aea6337b92053760f62d9b35b24ae63.png" title="Semillero enters '123456' into Entrar confirmar contrase&ntilde;a" width="1034"/>
+                <img src="d7ba0405d928513c606ebac8bfa87536b5ce65fdaf3434c9b148eb517e583488.png" title="Semillero enters '123456' into Entrar confirmar contrase&ntilde;a" width="1034"/>
+                <img src="152c866b3dc272394e56d3de02b9c6f64ed53016c611572d7e8df227d215d7d1.png" title="Semillero enters 'jerson andres' into Entrar el nombre" width="1034"/>
+                <img src="8d45c9ad5acaa737b06314847e926ec15b01d6442e2a64f253ec636a69e25a9a.png" title="Semillero enters 'jerson andres' into Entrar el nombre" width="1034"/>
+                <img src="a52fb0f4557dbb78c079c58178fae3579d86d12bf65dd0f57dc81a3102de91ff.png" title="Semillero enters 'jaramillo' into Entrar los apellidos" width="1034"/>
+                <img src="585da6b7210bfba46babef0eb008e5e7acd76dd666f73bcf382e458a41b6f269.png" title="Semillero enters 'jaramillo' into Entrar los apellidos" width="1034"/>
+                <img src="585da6b7210bfba46babef0eb008e5e7acd76dd666f73bcf382e458a41b6f269.png" title="Semillero enters '1032456876' into Entrar el documento" width="1034"/>
+                <img src="180046b615766b117c787f3d50f3f201aadaffafd5c146de4e076a44f8697542.png" title="Semillero enters '1032456876' into Entrar el documento" width="1034"/>
+                <img src="c9c73024b21850835c756d58723b9ebc5d2c8551b9e11f72a878754c5d4357df.png" title="Semillero enters '25' into Entrar el dia de nacimiento" width="1034"/>
+                <img src="4501af8c21afb4dc3a00b0aa8b7e3dc0663c45a34f1f052ec88bf08997c98350.png" title="Semillero enters '25' into Entrar el dia de nacimiento" width="1034"/>
+                <img src="98036d1e861b890389da2e043141f098ed8f8a771a2a74320113a01b6d0b715a.png" title="Semillero enters '04' into Entrar el mes de nacimiento" width="1034"/>
+                <img src="e497ea5bc6b0fabc3e5176e62654ae4203a38a293b709cef4c46ff7c1a256fc6.png" title="Semillero enters '04' into Entrar el mes de nacimiento" width="1034"/>
+                <img src="fd92b67e5ad6de21e22be64fc3cff6b78d0be49923572bc5076c363e52ae8895.png" title="Semillero select 1994 on Entrar el a&ntilde;o de nacimiento" width="1034"/>
+                <img src="0228041b4bed161b6cdf42664d62524f6d562890bccb6ccd0e339bd3bc1938a5.png" title="Semillero select 1994 on Entrar el a&ntilde;o de nacimiento" width="1034"/>
+                <img src="0228041b4bed161b6cdf42664d62524f6d562890bccb6ccd0e339bd3bc1938a5.png" title="Semillero select Masculino on Entrar el sexo" width="1034"/>
+                <img src="639b996429cb2d57b8898d7c6010c67cb90dd768dcef46782289968bc461036a.png" title="Semillero select Masculino on Entrar el sexo" width="1034"/>
+                <img src="639b996429cb2d57b8898d7c6010c67cb90dd768dcef46782289968bc461036a.png" title="Semillero clicks on Seleccionar la opcion Registrar" width="1034"/>
+                <img src="46fff5516839cc71ea0d0b591ad4a2a097b6ccb203cfebe0776f60c485eaf832.png" title="Semillero clicks on Seleccionar la opcion Registrar" width="1034"/>
+                <img src="46fff5516839cc71ea0d0b591ad4a2a097b6ccb203cfebe0776f60c485eaf832.png" title="Then Validar registro del usuario" width="1034"/>
+                <img src="18fba1cc0f21ca9c9b93752a4d67cbe29688f8be9d346d81f70b41bf906158f9.png" title="Then validar registro usuario should be 'Mi cuenta': <span class='error-color'>ERROR</span>" width="1034"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.9</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Iniciar sesion","A�adir producto al carro de compra","SUCCESS","2020-02-06T11:47:26.548-05:00[America/Bogota]","0.0","52.7"
+"Iniciar sesion","Cerrar sesion","SUCCESS","2020-02-06T11:48:19.253-05:00[America/Bogota]","0.0","57.08"
+"Buscar informacion servicio","Recuperar informacion de servicio","SUCCESS","2020-02-06T11:46:57.014-05:00[America/Bogota]","0.0","29.24"

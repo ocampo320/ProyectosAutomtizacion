@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="882821fa7f4e5872c290f4dfae89a711ef766c1de3ed727e0ff8fe48c5096804.html">Iniciar Sesion</a></span>
+                > <span class="truncate-60"><a
+                    href="1a6bdc4f5673bfae54d7a71fec9bab01b3a3147cc44f8b9526b877876409df5f.html">A�adir producto al carro de compra </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-02-2020 11:47</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Iniciar Sesion </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                en este feature se realizaran los procesos de inicio de sesion agregar contenido<br />
+al carrito de compra y cerrar sesion.
+                                </div>
+                            </div>
+
+                            <div class="requirementNarrative">Background: Iniciar sesion
+                                    <p></p>
+                            </div>
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">A�adir producto al carro de compra
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="6755689ed192324e533cdb4a9044a2f83ee8bb7ae670dad9bb28adac86d473b9.png" title="Given se desea iniciar sesion en dafiti" width="1034"/>
+                <img src="ff96f2418d867f31a83a1db61560e697f592e0865977f2116f6635b8a2e969d3.png" title="Semillero opens the Inicio dafiti" width="1034"/>
+                <img src="b500cd6870faf696d7e51300d2c12fcbca7be8d953c87642c759395919c8319f.png" title="When con los datos nombre de usuario &quot;jersonandres25@hotmail.com&quot; y contrasena &quot;123456&quot;" width="1034"/>
+                <img src="8b2149315ec7577376d61d90b7be5a5d0c40729c1b1ccaf899ec08ae1950347c.png" title="Semillero clicks on Selecciona la opci&oacute;n iniciar sesion" width="1034"/>
+                <img src="8b2149315ec7577376d61d90b7be5a5d0c40729c1b1ccaf899ec08ae1950347c.png" title="Semillero enters 'jersonandres25@hotmail.com' into Se ingresa el nombre de usuario" width="1034"/>
+                <img src="0406dec50f9d64cf97be250dc722519fb73fe7aa85cd80fe203018ebee7bfc18.png" title="Semillero enters 'jersonandres25@hotmail.com' into Se ingresa el nombre de usuario" width="1034"/>
+                <img src="2c88b9314cdd99eb88f4c272e933133417380c8f21d32ff693f6a51ff1825fa3.png" title="Semillero enters '123456' into Se ingresa contrase&ntilde;a" width="1034"/>
+                <img src="826fd367e42796f92a1616bb38b318ed81278d3ecbac4f3d7d418955af457461.png" title="Semillero enters '123456' into Se ingresa contrase&ntilde;a" width="1034"/>
+                <img src="2f4799093897def4c1ed8be36c881e9a89d44ac674a47e64b90e9db40f2804b9.png" title="Semillero clicks on Selecciona el boton iniciar sesion" width="1034"/>
+                <img src="90a7702ef4559f2cfdc201a909771cd702ea775ff70aa1e2fcdcf04e0513ac92.png" title="Semillero clicks on Selecciona el boton iniciar sesion" width="1034"/>
+                <img src="b500cd6870faf696d7e51300d2c12fcbca7be8d953c87642c759395919c8319f.png" title="Then validar que si se inicio sesion" width="1034"/>
+                <img src="b500cd6870faf696d7e51300d2c12fcbca7be8d953c87642c759395919c8319f.png" title="Then validar inicio sesion should be 'HOLA, JERSON'" width="1034"/>
+                <img src="091fd4184e5221b121f7a2a3ed79993054fe7bec926e76b84e2c4fc1f5eb3183.png" title="When anadir al carrito el producto &quot;Reloj Invicta 27350 Oro Negro Silicona, Acero Inoxidable, Poliuretano&quot;" width="1034"/>
+                <img src="0d241cd37d85d64a47a48b27e5a8ee633bacf00786881b3f168a7dbee904ca3b.png" title="Semillero enters 'Reloj Invicta 27350 Oro Negro Silicona, Acero Inoxidable, Poliuretano' into Entrar producto a buscar" width="1034"/>
+                <img src="1b0d6665ef8dad0abc3b2a7296dc7ed138f5ef340ce3c51a1d35b570909e86b4.png" title="Semillero clicks on Seleccionar la opcion buscar" width="1034"/>
+                <img src="f6250bc64b0f5b1d996760372eb4f461877d58089845342ec571aadbcee3ae5c.png" title="Semillero clicks on Seleccionar la opcion buscar" width="1034"/>
+                <img src="850235da1e961f5bd8d1df99271aa5538ef4c6818d203e735f934754e5156e48.png" title="Semillero clicks on Seleccion del producto buscado" width="1034"/>
+                <img src="8acbf28075b5e2eb452b2b47e599a7f49979b7e8e1d4ad82f792212efdefafca.png" title="Semillero clicks on Seleccion del producto buscado" width="1034"/>
+                <img src="f481354b603b677f027320d6590833204df1b8f6fd3ddac83a440154c7e48001.png" title="Semillero clicks on Seleccionar opcion agregar al carrito" width="1034"/>
+                <img src="3f3b911f6cdcc96f6dc0ff4bc553fcf3f6391f1c2ac9c294395324f5d91da98e.png" title="Semillero clicks on Seleccionar opcion agregar al carrito" width="1034"/>
+                <img src="3f3b911f6cdcc96f6dc0ff4bc553fcf3f6391f1c2ac9c294395324f5d91da98e.png" title="Semillero clicks on Seleccionar opcion ir al carrito" width="1034"/>
+                <img src="3ceab9a5f9ba944ec5218f0376ef25939d1db19f2c7c15c52cdfa2d930c4bfad.png" title="Semillero clicks on Seleccionar opcion ir al carrito" width="1034"/>
+                <img src="091fd4184e5221b121f7a2a3ed79993054fe7bec926e76b84e2c4fc1f5eb3183.png" title="Then Validar articulo en el carrito de compra" width="1034"/>
+                <img src="67acf22f1960a82e02559d7c67a2d70b8d18c23a5bccee15316a1e9337b6f993.png" title="Then validar carrito should be 'Reloj Invicta 27350 Oro Negro Silicona, Acero Inoxidable, Poliuretano.': <span class='success-color'>SUCCESS</span>" width="1034"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.9</span>
+</div>
+</body>
+</html>

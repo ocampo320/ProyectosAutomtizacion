@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="2" time="0.7533">
+<testcase classname="Registar un usuario" name="Registar usuario en la pagina" time="0.67714">
+<skipped><![CDATA[Given Ingrese a la pagina...................................................undefined
+When un usuario se registra con los datos deivi,ocampo,3128389642,deivi320@hotmail,cll8,medellin,antioquia,123,deivi320,deivi123.undefined
+Then el usuario ve el mensaje de registro exitoso...........................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Registar un usuario" name="Iniciar sesion con un usuario" time="0.07616">
+<skipped><![CDATA[Given Ingrese a la pagina...................................................undefined
+When El usuario hace login con las credenciales deivi320 y deivi123.........undefined
+Then EL usuario se logea correctamente......................................undefined
+]]></skipped>
+</testcase>
+</testsuite>
